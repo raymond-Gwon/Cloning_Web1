@@ -1,0 +1,14 @@
+@import "reset.css";
+@import "variable.css";
+
+/* Components */
+@import "components/header.css";
+@import "components/nav-bar.css";
+@import "components/footer.css";
+
+/* Components */
+@import "pages/index.css";
+
+* {
+  color: var(--black);
+}

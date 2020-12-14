@@ -1,0 +1,16 @@
+.component_nav-bar {
+  display: flex;
+  justify-content: center;
+  border-bottom: var(--divide-line);
+}
+
+.component_nav-bar ul {
+  padding: 24px 0;
+  display: flex;
+}
+
+.component_nav-bar li {
+  padding: 0 14px;
+  font-size: var(--medium-font);
+  color: var(--gray);
+}

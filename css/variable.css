@@ -1,0 +1,17 @@
+:root {
+  /* Color */
+  --black: #212121;
+  --gray: #656969;
+  --placeholder: #bdbdbd;
+  --button: #424242;
+
+  /* Font size */
+  --ms-font: 12px;
+  --small-font: 14px;
+  --medium-font: 18px;
+  --large-font: 26px;
+
+  /* Setting */
+  --strong-line: 2px solid #999999;
+  --divide-line: 1px solid #dcdedd;
+}
