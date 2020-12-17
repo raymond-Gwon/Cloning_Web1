@@ -1,5 +1,5 @@
 section {
-  padding: 0 15%;
+  padding: 0 15vw;
 }
 
 /* Section 1 */
@@ -9,7 +9,6 @@ section {
   border-bottom: var(--divide-line);
   display: flex;
 }
-
 .section1-left {
   width: 60%;
   padding-right: 60px;
@@ -20,7 +19,6 @@ section {
   display: flex;
   flex-direction: column;
 }
-
 .section1-left_title,
 .section1-right_title {
   padding-top: 30px;
@@ -29,44 +27,33 @@ section {
   font-size: var(--small-font);
   color: var(--gray);
 }
-
 .section1-left_article img {
-  display: block;
-  background-color: salmon;
   width: 38vw;
   height: calc(38vw * 9 / 16);
 }
-
 .section1-left_article .article-title {
   font-size: var(--large-font);
   line-height: 30px;
   margin: 24px 0;
 }
-
 .section1-left_article .article-subscript {
   font-size: var(--medium-font);
   line-height: 24px;
   margin: 24px 0;
 }
-
 .section1-left_article .article-writer {
   font-size: var(--ms-font);
 }
-
 .section1-right_articles {
   display: flex;
   flex-direction: column;
 }
-
 .section1-right_article {
   display: flex;
   align-items: center;
   padding-bottom: 20px;
 }
-
 .section1-right_article img {
-  display: block;
-  background-color: salmon;
   width: 10vw;
   height: calc(10vw * 9 / 16);
 }
@@ -83,26 +70,21 @@ section {
   text-overflow: ellipsis;
   padding: 5px 0;
 }
-
 .section1-right_article-tag .funded-percentages {
   color: #1b5e20;
   font-weight: bold;
 }
-
 .section1-right_article-tag .article-writer {
   font-size: var(--ms-font);
 }
-
 .section1-right_article-tag .article-btns {
   padding: 5px 0;
 }
-
 .section1-right_article-tag .article-btns i {
   padding: 5px;
   border: var(--divide-line);
   border-radius: 50%;
 }
-
 .section1-right .pages {
   align-self: flex-end;
 }
@@ -119,7 +101,6 @@ section {
   padding-bottom: 60px;
   border-bottom: var(--divide-line);
 }
-
 .section2 .title {
   font-size: var(--large-font);
   margin-bottom: 20px;

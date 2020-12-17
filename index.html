@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clone-Kickstarter</title>
     <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/slider.js"></script>
 </head>
 <body>
     <header class="component_header">
@@ -133,9 +134,96 @@
                 <button class="email-input-btn">Subscribe</button>
             </div>
         </section>
-        <section></section>
-        <section></section>
-        <section></section>
+        <section class="section3">
+            <div class="slider-titleAndBtns">
+                <div class="slider-title">
+                    <span>TAKING OFF</span>
+                    <a href="http://">Discover more ></a>
+                </div>
+                <div class="slider-btns">
+                    <button class="pre-btn" onclick="moveToPrev()">2</button>
+                    <button class="next-btn" onclick="moveToNext()">1</button>
+                </div>
+            </div>
+            <div class="slider-container" style="overflow: hidden;">
+                <div class="slider">
+                    <div class="slider-content" id="firstContent">
+                        <img src="" alt="" srcset="" style=" background-color: red">
+                        <span class="slider-content__title">ALMA OCEAN</span>
+                        <p class="slider-content__sub">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius sunt, sint nam ullam quasi dicta. Quas, quisquam facilis. Eligendi reiciendis in omnis sequi, quia cum sint dolore impedit quos! Quos?</p>
+                        <a class="slider-content__writer" href="http://#">By Danielle Hodge</a>
+                    </div>
+                    <div class="slider-content">
+                        <img src="" alt="" srcset="">
+                        <span class="slider-content__title">ALMA OCEAN</span>
+                        <p class="slider-content__sub">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius sunt, sint nam ullam quasi dicta. Quas, quisquam facilis. Eligendi reiciendis in omnis sequi, quia cum sint dolore impedit quos! Quos?</p>
+                        <a class="slider-content__writer" href="http://#">By Danielle Hodge</a>
+                    </div>
+                    <div class="slider-content">
+                        <img src="" alt="" srcset="" style=" background-color: red">
+                        <span class="slider-content__title">ALMA OCEAN</span>
+                        <p class="slider-content__sub">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius sunt, sint nam ullam quasi dicta. Quas, quisquam facilis. Eligendi reiciendis in omnis sequi, quia cum sint dolore impedit quos! Quos?</p>
+                        <a class="slider-content__writer" href="http://#">By Danielle Hodge</a>
+                    </div>
+                    <div class="slider-content">
+                        <img src="" alt="" srcset="">
+                        <span class="slider-content__title">ALMA OCEAN</span>
+                        <p class="slider-content__sub">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius sunt, sint nam ullam quasi dicta. Quas, quisquam facilis. Eligendi reiciendis in omnis sequi, quia cum sint dolore impedit quos! Quos?</p>
+                        <a class="slider-content__writer" href="http://#">By Danielle Hodge</a>
+                    </div>
+                    <div class="slider-content">
+                        <img src="" alt="" srcset="" style=" background-color: red">
+                        <span class="slider-content__title">ALMA OCEAN</span>
+                        <p class="slider-content__sub">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius sunt, sint nam ullam quasi dicta. Quas, quisquam facilis. Eligendi reiciendis in omnis sequi, quia cum sint dolore impedit quos! Quos?</p>
+                        <a class="slider-content__writer" href="http://#">By Danielle Hodge</a>
+                    </div>
+                    <div class="slider-content">
+                        <img src="" alt="" srcset="">
+                        <span class="slider-content__title">ALMA OCEAN</span>
+                        <p class="slider-content__sub">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius sunt, sint nam ullam quasi dicta. Quas, quisquam facilis. Eligendi reiciendis in omnis sequi, quia cum sint dolore impedit quos! Quos?</p>
+                        <a class="slider-content__writer" href="http://#">By Danielle Hodge</a>
+                    </div>
+                    <div class="slider-content">
+                        <img src="" alt="" srcset="">
+                        <span class="slider-content__title">ALMA OCEAN</span>
+                        <p class="slider-content__sub">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius sunt, sint nam ullam quasi dicta. Quas, quisquam facilis. Eligendi reiciendis in omnis sequi, quia cum sint dolore impedit quos! Quos?</p>
+                        <a class="slider-content__writer" href="http://#">By Danielle Hodge</a>
+                    </div>
+                    <div class="slider-content">
+                        <img src="" alt="" srcset="">
+                        <span class="slider-content__title">ALMA OCEAN</span>
+                        <p class="slider-content__sub">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius sunt, sint nam ullam quasi dicta. Quas, quisquam facilis. Eligendi reiciendis in omnis sequi, quia cum sint dolore impedit quos! Quos?</p>
+                        <a class="slider-content__writer" href="http://#">By Danielle Hodge</a>
+                    </div>
+                    <div class="slider-content" id="lastContent">
+                        <img src="" alt="" srcset="">
+                        <span class="slider-content__title">ALMA OCEAN</span>
+                        <p class="slider-content__sub">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius sunt, sint nam ullam quasi dicta. Quas, quisquam facilis. Eligendi reiciendis in omnis sequi, quia cum sint dolore impedit quos! Quos?</p>
+                        <a class="slider-content__writer" href="http://#">By Danielle Hodge</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section4 banner-article">
+            <img class="article-image" src="#" alt="article-image" srcset="">
+            <div class="banner-article__right">
+                <div class="article-contents">
+                    <span class="article-contents__title">Make 100</span>
+                    <p class="article-contents__sub">Make 100 is small projects' big time to shine. Launch a project with just 100 rewards this January.</p>
+                </div>
+                <a href="http://">Learn more</a>
+            </div>
+        </section>
+        <section class="section7 banner-article">
+            <img class="article-image" src="#" alt="article-image" srcset="">
+            <div class="banner-article__right">
+                <div class="article-contents">
+                    <span class="article-contents__title">Black Lives Matter</span>
+                    <p class="article-contents__sub">Together, we can use our voice and our energy to affirm that Balck lives matter. Here's a list of organizations, resources, reading materials, and protest safety tips to help you get involved.</p>
+                </div>
+                <a href="http://">Take action</a>
+            </div>
+        </section>
         <section></section>
         <section></section>
         <section></section>

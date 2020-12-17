@@ -1,12 +1,15 @@
 @import "reset.css";
 @import "variable.css";
+@import "components/image-space.css";
 
 /* Components */
 @import "components/header.css";
 @import "components/nav-bar.css";
 @import "components/footer.css";
+@import "components/banner-article.css";
+@import "components/slider.css";
 
-/* Components */
+/* Pages */
 @import "pages/index.css";
 
 * {
