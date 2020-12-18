@@ -3,6 +3,7 @@ let slides = document.querySelectorAll('.slider .slider-content');
 let counter = 0;
 
 
+
 document.querySelector('.next-btn').addEventListener('click', function(){
     if (counter<slides.length-4){
         counter++;

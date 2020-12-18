@@ -45,8 +45,11 @@ section {
   font-size: var(--ms-font);
 }
 .section1-right_articles {
-  display: flex;
+  display: none;
   flex-direction: column;
+}
+.page1 {
+  display: flex;
 }
 .section1-right_article {
   display: flex;
